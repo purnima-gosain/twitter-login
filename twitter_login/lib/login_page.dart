@@ -12,10 +12,34 @@ class _TwitterLoginPageState extends State<TwitterLoginPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         title: const Text("Login"),
       ),
       body: Center(
-        child: Column(),
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 20.0),
+          child: ElevatedButton(
+            style: ElevatedButton.styleFrom(primary: Colors.white),
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                const Text(
+                  "Sign in with",
+                  style: TextStyle(
+                      fontWeight: FontWeight.w600,
+                      fontSize: 25,
+                      color: Colors.black),
+                ),
+                Image.asset(
+                  "assets/images/twitter.png",
+                  height: 45,
+                )
+              ],
+            ),
+            onPressed: () {},
+          ),
+        ),
       ),
     );
   }
