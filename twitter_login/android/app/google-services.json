@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "609559643199",
+    "project_id": "twitter-signin-a5f5f",
+    "storage_bucket": "twitter-signin-a5f5f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609559643199:android:f1ffea2e6f006aad5ee48a",
+        "android_client_info": {
+          "package_name": "com.example.twitter_login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609559643199-fhdc1n45bnkeujjcu1so9hth6gvfmh5f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.twitter_login",
+            "certificate_hash": "16612d8e1095a51e0167567f4ea4817439561543"
+          }
+        },
+        {
+          "client_id": "609559643199-e22srgdgmo43iepmad30d94cd9qpk7me.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqGzKmcyV6rJIoeMjWhanBHtjMPz9GU6c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "609559643199-e22srgdgmo43iepmad30d94cd9qpk7me.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
